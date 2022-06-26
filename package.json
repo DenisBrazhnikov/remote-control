@@ -8,5 +8,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jimp": "^0.16.1",
+    "robotjs": "^0.6.0",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "typescript": "^4.7.4"
+  }
 }
