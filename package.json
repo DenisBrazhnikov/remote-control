@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Remote control",
   "scripts": {
-    "start:prod": "tsc && node dist/index.js",
+    "start": "tsc && node dist/index.js",
     "start:dev": "nodemon src/index.ts"
   },
   "keywords": [],
