@@ -1,10 +1,10 @@
 {
   "name": "remote-control",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Remote control",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:prod": "tsc && node dist/index.js",
+    "start:dev": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   }
 }
